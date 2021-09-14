@@ -1,5 +1,415 @@
 [
-  {"id": 1, "title": "Title 1"},
-  {"id": 2, "title": "Title 2"},
-  {"id": 2, "title": "Title 2"}
+  {
+      "label": "Asia",
+      "options": [
+          {
+              "label": "Afghanistan",
+              "value": "afghanistan"
+          },
+          {
+              "label": "Bangladesh",
+              "value": "bangladesh"
+          },
+          {
+              "label": "Myanmar",
+              "value": "myanmar"
+          },
+          {
+              "label": "Pakistan",
+              "value": "pakistan"
+          },
+          {
+              "label": "Thailand",
+              "value": "thailand"
+          }
+      ]
+  },
+  {
+      "label": "East Africa",
+      "options": [
+          {
+              "label": "Ethiopia",
+              "value": "ethiopia"
+          },
+          {
+              "label": "Kenya",
+              "value": "kenya"
+          },
+          {
+              "label": "Somalia",
+              "value": "somalia"
+          },
+          {
+              "label": "South Sudan",
+              "value": "southSudan"
+          },
+          {
+              "label": "Uganda",
+              "value": "uganda"
+          },
+          {
+              "label": "Yemen",
+              "value": "yemen"
+          },
+          {
+              "label": "Zimbabwe",
+              "value": "zimbabwe"
+          },
+          {
+              "label": "Sudan",
+              "value": "sudan"
+          }
+      ]
+  },
+  {
+      "label": "West Africa",
+      "options": [
+          {
+              "label": "Burkina Faso",
+              "value": "burkinaFaso"
+          },
+          {
+              "label": "Cameroon",
+              "value": "cameroon"
+          },
+          {
+              "label": "Chad",
+              "value": "chad"
+          },
+          {
+              "label": "Côte d'Ivoire",
+              "value": "coteDIvoire"
+          },
+          {
+              "label": "Liberia",
+              "value": "liberia"
+          },
+          {
+              "label": "Mali",
+              "value": "mali"
+          },
+          {
+              "label": "Niger",
+              "value": "niger"
+          },
+          {
+              "label": "Nigeria",
+              "value": "nigeria"
+          },
+          {
+              "label": "Sierra Leone",
+              "value": "sierraLeone"
+          }
+      ]
+  },
+  {
+      "label": "Great Lakes",
+      "options": [
+          {
+              "label": "Burundi",
+              "value": "burundi"
+          },
+          {
+              "label": "Central African Republic",
+              "value": "centralAfricanRepublic"
+          },
+          {
+              "label": "Democratic Republic of Congo",
+              "value": "democraticRepublicOfCongo"
+          },
+          {
+              "label": "Tanzania",
+              "value": "tanzania"
+          }
+      ]
+  },
+  {
+      "label": "Middle East & North Africa",
+      "options": [
+          {
+              "label": "Iraq",
+              "value": "iraq"
+          },
+          {
+              "label": "Jordan",
+              "value": "jordan"
+          },
+          {
+              "label": "Lebanon",
+              "value": "lebanon"
+          },
+          {
+              "label": "Syria",
+              "value": "syria"
+          },
+          {
+              "label": "Libya",
+              "value": "libya"
+          }
+      ]
+  },
+  {
+      "label": "Europe",
+      "options": [
+          {
+              "label": "Europe",
+              "value": "europe"
+          },
+          {
+              "label": "Armenia",
+              "value": "armenia"
+          },
+          {
+              "label": "Balkans",
+              "value": "balkans"
+          },
+          {
+              "label": "Belgrade",
+              "value": "belgrade"
+          },
+          {
+              "label": "Bulgaria",
+              "value": "bulgaria"
+          },
+          {
+              "label": "Croatia",
+              "value": "croatia"
+          },
+          {
+              "label": "Estonia",
+              "value": "estonia"
+          },
+          {
+              "label": "Germany",
+              "value": "germany"
+          },
+          {
+              "label": "Greece",
+              "value": "greece"
+          },
+          {
+              "label": "Italy",
+              "value": "italy"
+          },
+          {
+              "label": "Ireland",
+              "value": "ireland"
+          },
+          {
+              "label": "Latvia",
+              "value": "latvia"
+          },
+          {
+              "label": "Serbia",
+              "value": "serbia"
+          },
+          {
+              "label": "Lithuania",
+              "value": "lithuania"
+          },
+          {
+              "label": "Montenegro",
+              "value": "montenegro"
+          },
+          {
+              "label": "Portugal",
+              "value": "portugal"
+          },
+          {
+              "label": "Romania",
+              "value": "romania"
+          },
+          {
+              "label": "Slovakia",
+              "value": "slovakia"
+          },
+          {
+              "label": "Spain",
+              "value": "spain"
+          },
+          {
+              "label": "Belgium",
+              "value": "belgium"
+          },
+          {
+              "label": "Bosnia and Herzegovina",
+              "value": "BosniaAndHerzegovina"
+          }
+      ]
+  },
+  {
+      "label": "United States",
+      "options": [
+          {
+              "label": "United States",
+              "value": "unitedStates"
+          },
+          {
+              "label": "Abilene, TX (OFR)",
+              "value": "abileneTxOfr"
+          },
+          {
+              "label": "Atlanta, GA",
+              "value": "atlantaGa"
+          },
+          {
+              "label": "Baltimore, MD",
+              "value": "baltimoreMd"
+          },
+          {
+              "label": "Boise, ID",
+              "value": "boiseId"
+          },
+          {
+              "label": "Charlottesville, VA",
+              "value": "charlottesvilleVa"
+          },
+          {
+              "label": "Dallas, TX",
+              "value": "dallasTx"
+          },
+          {
+              "label": "Denver, CO",
+              "value": "denverCo"
+          },
+          {
+              "label": "Elizabeth, NJ (OFR)",
+              "value": "elizabethNjOfr"
+          },
+          {
+              "label": "Glendale, CA",
+              "value": "glendaleCa"
+          },
+          {
+              "label": "Kansas, KS (OFR)",
+              "value": "kansasKsOfr"
+          },
+          {
+              "label": "Los Angeles, CA",
+              "value": "losAngelesCa"
+          },
+          {
+              "label": "Miami, FL",
+              "value": "miamiFl"
+          },
+          {
+              "label": "Missoula, MT",
+              "value": "missoulaMt"
+          },
+          {
+              "label": "New Jersey, NJ (OFR)",
+              "value": "newJerseyNjOfr"
+          },
+          {
+              "label": "New York, NY",
+              "value": "newYorkNy"
+          },
+          {
+              "label": "Oakland, CA",
+              "value": "oaklandCa"
+          },
+          {
+              "label": "Phoenix, AZ",
+              "value": "phoenixAz"
+          },
+          {
+              "label": "Richmond, VA",
+              "value": "richmondVa"
+          },
+          {
+              "label": "Sacramento, CA",
+              "value": "sacramentoCa"
+          },
+          {
+              "label": "Salt Lake City, UT",
+              "value": "saltLakeCityUt"
+          },
+          {
+              "label": "San Diego, CA",
+              "value": "sanDiegoCa"
+          },
+          {
+              "label": "San José, CA",
+              "value": "sanJoseCa"
+          },
+          {
+              "label": "SeaTac, WA",
+              "value": "seaTacWa"
+          },
+          {
+              "label": "Seattle, WA",
+              "value": "seattleWa"
+          },
+          {
+              "label": "Silver Spring, MD",
+              "value": "silverSpringMd"
+          },
+          {
+              "label": "Tallahassee, FL",
+              "value": "tallahasseeFl"
+          },
+          {
+              "label": "Tucson, AZ",
+              "value": "tucsonAz"
+          },
+          {
+              "label": "Turlock, CA",
+              "value": "turlockCa"
+          },
+          {
+              "label": "West Texas, TX (OFR)",
+              "value": "westTexasTxOfr"
+          },
+          {
+              "label": "Wichita, KS (OFR)",
+              "value": "wichitaKsOfr"
+          }
+      ]
+  },
+  {
+      "label": "Latin America",
+      "options": [
+          {
+              "label": "Colombia",
+              "value": "colombia"
+          },
+          {
+              "label": "El Salvador",
+              "value": "elSalvador"
+          },
+          {
+              "label": "Mexico",
+              "value": "mexico"
+          },
+          {
+              "label": "Venezuela",
+              "value": "venezuela"
+          },
+          {
+              "label": "Guatemala",
+              "value": "guatemala"
+          },
+          {
+              "label": "Honduras",
+              "value": "honduras"
+          },
+          {
+              "label": "Ecuador",
+              "value": "ecuador"
+          }
+      ]
+  },
+  {
+      "label": "Global Options",
+      "options": [
+          {
+              "label": "Global",
+              "value": "global"
+          }
+      ]
+  },
+  {
+      "label": "Other Regions",
+      "options": []
+  }
 ]
